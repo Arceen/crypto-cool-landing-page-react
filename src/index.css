@@ -1,13 +1,178 @@
+/*
+Setting color vars and border-box to maintain figma design measurements
+*/
+:root {
+  --black: #000;
+  --gray: #565656;
+  --gray02: #696969;
+  --lightgray: #c0c0c0;
+  --purple: #3d00b7;
+  --purple02: #4f33a3;
+  --blue: #2639ed;
+  --white: #fff;
+  --bg: #fff;
+  --bg02: rgba(217, 224, 236, 0.2);
+  --line-color: #efefef;
+  --pinkish: #ffe0d4;
+}
+
+* {
+  box-sizing: border-box;
+}
+/*
+Importing fonts. For each font needed giving a custom name for easily using because Averta has long name 
+*/
+
+@font-face {
+  font-family: "Averta Demo";
+  src: url("/public/assets/fonts/avertademo/AvertaDemoPECuttedDemo-Regular.ttf")
+    format("truetype");
+  font-weight: regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Integral CF Bold";
+  src: url("/public/assets/fonts/integralcf/integralcf-bold.otf")
+    format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Integral CF Medium";
+  src: url("/public/assets/fonts/integralcf/integralcf-medium.otf")
+    format("opentype");
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Integral CF Regular";
+  src: url("/public/assets/fonts/integralcf/integralcf-regular.otf")
+    format("opentype");
+  font-weight: medium;
+  font-style: normal;
+}
+
+/*
+configuring elements like headers and paragraphs with their default styles 
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: var(--black);
+  font-family: "Integral CF Bold";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+h2 {
+  color: var(--black);
+  font-family: "Integral CF Bold";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+h3 {
+  color: var(--black);
+  font-family: "Integral CF Bold";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+h4 {
+  color: var(--black);
+  font-family: "Integral CF Bold";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+h5 {
+  color: var(--black);
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+h6 {
+  color: var(--black);
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+p {
+  color: var(--gray);
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 32px */
+}
+
+.small-text {
+  color: var(--gray02);
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 22.4px */
+}
+.small-text-02 {
+  color: var(--gray02);
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 22.4px */
+}
+.small-text-03 {
+  color: var(--white);
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+button {
+  cursor: pointer;
+}
+/*
+End of configuring default styles
+*/
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  overflow-x: hidden;
+  font-family: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: var(--purple);
 }

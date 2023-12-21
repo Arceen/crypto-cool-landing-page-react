@@ -1,0 +1,158 @@
+.footer_wrapper {
+  margin-top: 80px;
+  margin-bottom: 24px;
+  width: 100%;
+}
+.footer_main_div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer_top_div {
+  max-width: 1200px;
+  width: 1200px;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 80px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer_info_col {
+  width: 334px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footer_info_header {
+  color: #000;
+  font-family: "Integral CF Bold";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 28px;
+}
+.footer_info_details {
+  color: #565656;
+  font-family: "Averta Demo";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin-bottom: 32px;
+}
+.footer_info_socials {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.footer_generic_col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footer_generic_subscribe_column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 364px;
+}
+.footer_generic_header {
+  color: #000;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 24px;
+}
+.generic_item {
+  color: #3d3d3d;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+.footer_subscribe_text {
+  color: #363639;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin-bottom: 24px;
+}
+.subscribe_div {
+  position: relative;
+  width: 364px;
+  height: 60px;
+  border-radius: 46px;
+  background: var(--white);
+  border: 2px solid #f1f1f1;
+}
+.subscribe_email {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 25px;
+  border: none;
+  outline: none;
+  color: var(--black);
+  font-family: DM Sans;
+  font-size: 12.159px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.subscribe_button_wrapper {
+  position: absolute;
+  right: 7px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.footer_divider {
+  width: 1200px;
+  height: 1px;
+  background: #f4f4f4;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 15px;
+  align-self: center;
+}
+
+.footer_copyright {
+  color: #a4a4a4;
+  font-family: "Averta Demo";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+
+.footer_my_div {
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+}
+.footer_react_logo {
+  height: 14px;
+  width: 14px;
+}
+
+@media (max-width: 1199px) {
+  .footer_top_div {
+    width: auto;
+    gap: 30px;
+    justify-content: center;
+    padding: 0px 10px;
+  }
+}

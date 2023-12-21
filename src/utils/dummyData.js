@@ -1,0 +1,136 @@
+export const dummyCardData = {
+  imagesBasePath: "assets/images/",
+  nameList: ["Crypt", "Crypto", "Abyss", "Art", "NFT", "King", "Chain", "Lock"],
+  bgList: [
+    "cf01.jpeg",
+    "cf02.jpeg",
+    "hero01.jpeg",
+    "hero02.jpeg",
+    "hero03.jpeg",
+    "tc01.jpeg",
+    "tc02.jpeg",
+    "tc03.jpeg",
+    "tc04.jpeg",
+    "topbid01.jpeg",
+  ],
+  usrPicList: [
+    "girl_pic01.png",
+    "girl_pic02.png",
+    "girl_pic03.png",
+    "guy_pic01.png",
+    "guy_pic02.png",
+  ],
+};
+export const dummyCategoryData = [
+  {
+    catId: 0,
+    catName: "All Categories",
+    active: true,
+  },
+  {
+    catId: 1,
+    catName: "Celebrity",
+    active: false,
+  },
+  {
+    catId: 2,
+    catName: "Music",
+    active: false,
+  },
+  {
+    catId: 3,
+    catName: "Sports",
+    active: false,
+  },
+  {
+    catId: 4,
+    catName: "Gaming",
+    active: false,
+  },
+  {
+    catId: 5,
+    catName: "Crypto",
+    active: false,
+  },
+];
+
+export const dummyBidData = [
+  {
+    key: 1,
+    title: "The Futr Abstr",
+    bgSrc: "assets/images/topbid01.jpeg",
+    userPic: "assets/images/guy_pic01.png",
+    current: 1,
+    total: 5,
+    ethVal: 0.45,
+  },
+  {
+    key: 2,
+    title: "The Past Abstr",
+    bgSrc: "assets/images/topbid02.jpeg",
+    userPic: "assets/images/girl_pic01.png",
+    current: 1,
+    total: 6,
+    ethVal: 0.35,
+  },
+  {
+    key: 3,
+    title: "The Pres Abstr",
+    bgSrc: "assets/images/topbid03.jpeg",
+    userPic: "assets/images/guy_pic01.png",
+    current: 1,
+    total: 2,
+    ethVal: 0.25,
+  },
+  {
+    key: 4,
+    title: "The Big Abstr",
+    bgSrc: "assets/images/topbid04.jpeg",
+    userPic: "assets/images/girl_pic01.png",
+    current: 1,
+    total: 10,
+    ethVal: 0.65,
+  },
+];
+export const dummyTopCollectionOverData = [
+  {
+    key: 1,
+    title: "CryptoFunks",
+    imgSrc: "assets/images/tc01.jpeg",
+    diff: 26.52,
+    levels: 19769.39,
+    verified: true,
+  },
+  {
+    key: 2,
+    title: "Cryptix",
+    imgSrc: "assets/images/tc02.jpeg",
+    diff: -10.52,
+    levels: 2769.39,
+    verified: false,
+  },
+  {
+    key: 3,
+    title: "Frensware",
+    imgSrc: "assets/images/tc03.jpeg",
+    diff: 2.52,
+    levels: 9232.39,
+    verified: false,
+  },
+  {
+    key: 4,
+    title: "PunkArt",
+    imgSrc: "assets/images/tc04.jpeg",
+    diff: 1.23,
+    levels: 3769.39,
+    verified: true,
+  },
+  {
+    key: 5,
+    title: "Art Crypto",
+    imgSrc: "assets/images/tc05.jpeg",
+    diff: -2.52,
+    levels: 10769.39,
+    verified: false,
+  },
+];

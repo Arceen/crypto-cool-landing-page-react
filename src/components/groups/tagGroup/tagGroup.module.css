@@ -1,0 +1,36 @@
+.tag_row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.single_tag_main {
+  box-sizing: border-box;
+  border-radius: 100px;
+  background: rgba(220, 220, 220, 0.2);
+  padding: 10px 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  box-shadow: none;
+  border: none;
+
+  border: 1px solid white;
+}
+.single_tag_main:hover {
+  border: 1px solid var(--purple);
+}
+.active {
+  color: var(--white);
+  background: var(--purple);
+}
+
+.active:hover {
+  transform: none;
+  cursor: not-allowed;
+}

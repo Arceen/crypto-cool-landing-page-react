@@ -1,0 +1,310 @@
+.tcollections_main_wrapper {
+  width: 100%;
+}
+.tcollections_main {
+  margin: auto;
+  margin-top: 134px;
+  margin-bottom: 134px;
+  max-width: 1200px;
+  width: 1200px;
+  display: flex;
+}
+.top_bids_main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 400px;
+  max-height: 540px;
+}
+.top_bid_img {
+  width: 400px;
+  height: 424px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 24px;
+}
+
+.top_bid_user_main {
+  height: 116px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top_bid_user_section {
+  display: flex;
+}
+.top_bid_user_image {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+.top_bid_title_col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.top_bid_title {
+  color: #000;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.top_bid_stock_level {
+  color: #363639;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.top_bid_highest_col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.top_bid_btc_row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.top_bid_highest_bid_main {
+  color: #3a3a3a;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.top_bid_btc {
+  color: #3a3a3a;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.other_bids_main {
+  margin-left: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.other_bids_single_main {
+  display: flex;
+  gap: 20px;
+}
+.other_bids_image {
+  height: 148px;
+  width: 148px;
+  border-radius: 12px;
+  object-fit: cover;
+  object-position: center;
+}
+.other_bids_single_col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.other_bids_single_title {
+  margin-top: 10px;
+  color: #000;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.other_bids_single_info_row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 6px;
+}
+.other_bids_single_profile_pic {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+.other_bids_tag_main {
+  width: 86px;
+  height: 32px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #00ac4f;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.other_bids_single_eth_text {
+  color: #00ac4f;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.other_bids_single_info_text {
+  color: #757575;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.top_collections_main {
+  height: 540px;
+  border-left: 1px solid #ececec;
+  padding-left: 38px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.top_collections_header {
+  color: #000;
+  font-family: "Integral CF Bold";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.top_collections_side_text {
+  color: #3d00b7;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.top_collection_single {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 16px;
+  width: 314px;
+  margin-top: 20px;
+}
+.top_collection_single_ranking {
+  color: #000;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 103%; /* 24.72px */
+  letter-spacing: -0.6px;
+  margin-right: 14px;
+}
+.top_collection_single_btc_val_row {
+  position: relative;
+}
+.top_collection_single_img_container {
+  position: relative;
+  margin-right: 20px;
+}
+.top_collection_single_image {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+.top_collection_check {
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  z-index: 2;
+}
+
+.top_collection_single_name_col {
+  display: flex;
+  flex-direction: column;
+}
+.top_collection_single_name_title {
+  color: #000;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 103%; /* 16.48px */
+  letter-spacing: -0.4px;
+}
+
+.top_collection_single_btc_val_row {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.top_collection_eth_ico {
+  margin-right: 5px;
+}
+
+.top_collection_eth_value {
+  color: #636363;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 103%; /* 14.42px */
+  letter-spacing: -0.35px;
+}
+.top_collection_single_diff {
+  width: 100%;
+  align-self: center;
+  text-align: right;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 103%; /* 20.6px */
+  letter-spacing: -0.5px;
+}
+
+.top_collection_green {
+  color: #14c8b0;
+}
+.top_collection_red {
+  color: #ff002e;
+}
+.no_bottom_border {
+  border-bottom: none;
+}
+.top_collection_list_main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+
+@media (max-width: 1199px) {
+  .tcollections_main {
+    flex-wrap: wrap;
+    width: auto;
+    padding: 0px 20px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+  }
+  .other_bids_main {
+    min-height: 540px;
+  }
+}

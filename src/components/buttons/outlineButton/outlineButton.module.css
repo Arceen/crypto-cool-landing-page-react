@@ -1,0 +1,27 @@
+.button_main {
+  width: auto;
+  position: relative;
+  z-index: 5;
+  transition: color 0.4s;
+  overflow: hidden;
+}
+.button_main::before {
+  content: "";
+  width: 200%;
+  height: 200px;
+  background: var(--purple);
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+  top: 50%;
+  left: 0%;
+  transform: translate(-120%, -50%);
+  transition: transform 0.6s;
+}
+.button_main:hover::before {
+  transform: translate(-2%, -50%);
+}
+.button_main:hover {
+  color: white !important;
+  transform: scale(1.02);
+}

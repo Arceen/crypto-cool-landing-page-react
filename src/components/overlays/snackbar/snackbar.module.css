@@ -1,0 +1,18 @@
+.snackbar_main {
+  position: fixed;
+  bottom: 30px;
+  right: 50px;
+  background: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  padding: 15px 30px;
+  font-family: DM Sans;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 10px;
+  border-bottom-right-radius: 0px;
+  z-index: 99;
+}

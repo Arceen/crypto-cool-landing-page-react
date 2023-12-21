@@ -1,0 +1,47 @@
+.button_main {
+  width: auto;
+  border: none;
+}
+.button_main:hover {
+  transform: scale(1.02);
+}
+/* .animatedButton {
+  position: relative;
+  overflow: hidden;
+}
+
+.animatedButton::before {
+  content: "";
+  height: 120px;
+  width: 40px;
+  background-color: var(--white);
+  position: absolute;
+  z-index: 1;
+  top: -30px;
+  left: 0;
+  animation: btn-animation 1s ease-in-out infinite;
+  -webkit-animation: btn-animation 1s ease-in-out infinite;
+  -moz-animation: btn-animation 1s ease-in-out infinite;
+  -webkit-animation-delay: 10s;
+  -moz-animation-delay: 10s;
+}
+
+@-webkit-keyframes btn-animation {
+  0% {
+    transform: translateX(-60px) rotate(-45deg);
+  }
+
+  100% {
+    transform: translateX(400px) rotate(-45deg);
+  }
+}
+
+@keyframes btn-animation {
+  0% {
+    transform: translateX(-60px) rotate(-45deg);
+  }
+
+  100% {
+    transform: translateX(400px) rotate(-45deg);
+  }
+} */

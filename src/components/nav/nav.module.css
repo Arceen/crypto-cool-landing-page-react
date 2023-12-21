@@ -1,0 +1,116 @@
+.nav_main_wrapper {
+  width: 100%;
+  border-bottom: 1px solid var(--line-color);
+  display: flex;
+  align-items: center;
+}
+.nav_main {
+  background: var(--white);
+  min-height: 110px;
+  margin: auto;
+  max-width: 1200px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+}
+
+.nft_logo {
+  color: var(--purple);
+  font-family: "Integral CF Bold";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-right: 31px;
+  position: relative;
+}
+.nft_logo::after {
+  content: "";
+  width: 1px;
+  height: 47px;
+  background-color: var(--line-color);
+  position: absolute;
+  top: 50%;
+  transform: translate(31px, -50%);
+}
+.text_link {
+  color: #000;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.64px;
+}
+.links_section {
+  display: flex;
+  align-items: flex-end;
+  gap: 48px;
+}
+
+.first_text_link {
+  margin-left: 0px;
+}
+
+.buttons_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 638px;
+}
+
+.search_section {
+  width: 300px;
+  height: 50px;
+  border-radius: 100px;
+  border: 2px solid var(--line-color);
+  background: white;
+  position: relative;
+}
+.search_icon {
+  position: absolute;
+  top: 50%;
+  right: 13px;
+  transform: translateY(-50%);
+  z-index: 1;
+  cursor: pointer;
+}
+.search_input {
+  color: var(--light-gray);
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.64px;
+  position: absolute;
+  top: 50%;
+  left: 13px;
+  transform: translateY(-50%);
+  background-color: white;
+  border: none;
+  outline: none;
+}
+
+@media (max-width: 1210px) {
+  .nav_main {
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 40px;
+  }
+  .links_section {
+    flex-wrap: wrap;
+  }
+
+  .buttons_section {
+    width: auto;
+    margin-left: auto;
+    flex-wrap: wrap;
+    width: auto;
+    gap: 20px;
+  }
+}
